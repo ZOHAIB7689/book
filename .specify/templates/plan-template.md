@@ -31,7 +31,18 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+This project must comply with the Physical AI Textbook Constitution which requires:
+- Academic rigor with concepts explained from first principles
+- Content suitable for university students with technical literacy but no prior knowledge of physical AI
+- Strict adherence to Docusaurus classic documentation structure
+- One chapter per folder with standardized filenames: introduction.md, theory.md, systems.md, implementation.md, labs.md, summary.md
+- All file and folder names in lowercase and kebab-case
+- Content suitable for GitHub Pages deployment
+- Academic, instructional, and precise writing style
+- Diagrams described textually
+- Real-world constraints discussed (latency, hardware limits, safety)
+- No skipped reasoning steps
+- Each chapter must build on previous chapters
 
 ## Project Structure
 

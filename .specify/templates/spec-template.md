@@ -1,9 +1,10 @@
 # Feature Specification: [FEATURE NAME]
 
-**Feature Branch**: `[###-feature-name]`  
-**Created**: [DATE]  
-**Status**: Draft  
+**Feature Branch**: `[###-feature-name]`
+**Created**: [DATE]
+**Status**: Draft
 **Input**: User description: "$ARGUMENTS"
+**Constitution Compliance**: This specification must align with Physical AI Textbook Constitution requirements for academic rigor, university-level content, and Docusaurus structure compliance.
 
 ## User Scenarios & Testing *(mandatory)*
 

@@ -1,0 +1,104 @@
+# .gitignore for Physical AI & Humanoid Robotics Book
+
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+target/
+*.class
+*.jar
+*.war
+obj/
+bin/
+
+# Environment specific
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+.settings/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# ROS specific
+*.dae
+*.STL
+*.obj
+*.mtl
+*.urdf
+*.srdf
+*.yaml
+*.launch
+
+# ROS build artifacts
+build_isolated/
+devel_isolated/
+install_isolated/
+build/
+devel/
+install/
+
+# Gazebo models
+~/.gazebo/models/*
+**/model.config
+
+# Isaac Sim/ROS
+isaac_ros_messages/
+isaac_ros_common/
+
+# Simulation assets
+*.world
+*.sdf
+*.world.bak
+
+# Generated code
+gen/
+
+# Simulation logs
+.gazebo/
