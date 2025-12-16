@@ -8,6 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, #1a2a6c, #2a4b8d, #3a6baf);
+  color: white;
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +18,45 @@
   }
 }
 
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
 .buttons {
   display: flex;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons .button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
 }
