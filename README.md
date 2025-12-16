@@ -1,18 +1,20 @@
 # Physical AI & Humanoid Robotics Textbook
 
-This repository contains the content, code examples, and exercises for the textbook "Physical AI & Humanoid Robotics: From Embodied Intelligence to Autonomous Humanoids".
+This repository contains the content, code examples, and exercises for the textbook "Physical AI & Humanoid Robotics: From Embodied Intelligence to Autonomous Humanoids", published as a Docusaurus website.
 
 ## Table of Contents
 
-1. [Introduction](book/01-introduction/)
-2. [ROS 2 Middleware](book/02-ros-middleware/)
-3. [Simulation Environments](book/03-simulation/)
-4. [Vision-Language-Action Systems](book/04-vla-systems/)
-5. [LLM-Driven Planning](book/05-llm-planning/)
-6. [Humanoid Locomotion](book/06-humanoid-locomotion/)
-7. [Cognitive Robotics](book/07-cognitive-robotics/)
-8. [System Integration](book/08-integration/)
-9. [Capstone Project](book/09-capstone/)
+The textbook is organized into 9 chapters, accessible through the website navigation:
+
+1. [Introduction](https://zohaib7689.github.io/book/docs/01-introduction/physical-ai-principles/content)
+2. [ROS 2 Middleware](https://zohaib7689.github.io/book/docs/02-ros-middleware/fundamentals/content)
+3. [Simulation Environments](https://zohaib7689.github.io/book/docs/03-simulation/gazebo-basics/content)
+4. [Vision-Language-Action Systems](https://zohaib7689.github.io/book/docs/04-vla-systems/vla-theory/content)
+5. [LLM-Driven Planning](https://zohaib7689.github.io/book/docs/05-llm-planning/planning-algorithms/content)
+6. [Humanoid Locomotion](https://zohaib7689.github.io/book/docs/06-humanoid-locomotion/walking-algorithms/content)
+7. [Cognitive Robotics](https://zohaib7689.github.io/book/docs/07-cognitive-robotics/cognitive-architectures/content)
+8. [System Integration](https://zohaib7689.github.io/book/docs/08-integration/system-composition/content)
+9. [Capstone Project](https://zohaib7689.github.io/book/docs/09-capstone/autonomous-humanoid-project/content)
 
 ## Overview
 
@@ -27,9 +29,22 @@ This textbook teaches students how to design, simulate, and control humanoid rob
 - Vision-Language-Action (VLA) systems
 - LLM-driven planning for robotics
 
-## Getting Started
+## Development
 
-See the [Quickstart Guide](specs/001-humanoid-robotics-book/quickstart.md) for setup instructions and initial exercises.
+This Docusaurus website was generated from content in the `book/` directory using migration scripts. To run the website locally:
+
+1. Install Node.js (version 20.0 or above)
+2. Navigate to the `website` directory: `cd website`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run start`
+
+## Deployment
+
+The site is configured for deployment to GitHub Pages at https://zohaib7689.github.io/book/ using the following command:
+```
+cd website
+GIT_USER=ZOHAIB7689 CURRENT_BRANCH=main USE_SSH=true npm run deploy
+```
 
 ## Contributing
 
@@ -37,4 +52,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details."# book" 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. 
