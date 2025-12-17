@@ -9,3 +9,17 @@
   height: 200px;
   width: 200px;
 }
+
+
+img {
+  background: cover;
+  border-radius:8px;
+  background-color: black;
+}
+
+img:hover {
+  background-color: black;
+  opacity: 80%;
+  scale:110%;
+  animation-duration: 400ms;
+}

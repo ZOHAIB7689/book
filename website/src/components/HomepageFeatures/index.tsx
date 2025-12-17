@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Complete Learning Path',
-    image: require('@site/static/img/humanoid robotics.png').default,
+    image: require('@site/static/img/humanoid-robotics.png').default,
     description: (
       <>
         From foundational concepts of Physical AI to advanced autonomous
