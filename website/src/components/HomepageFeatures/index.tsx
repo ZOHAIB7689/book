@@ -5,14 +5,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  image: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Embodied Intelligence',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default, // Placeholder - should be replaced with a relevant image
+    image: require('@site/static/img/physical-ai.jpg').default,
     description: (
       <>
         Learn how intelligence emerges from the interaction between cognitive processes,
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Modern Robotics Technologies',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default, // Placeholder - should be replaced with a relevant image
+    image: require('@site/static/img/robotics-technology.jpg').default,
     description: (
       <>
         Master ROS 2 (Humble/Iron), Gazebo simulation, NVIDIA Isaac Sim,
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Complete Learning Path',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default, // Placeholder - should be replaced with a relevant image
+    image: require('@site/static/img/humanoid robotics.png').default,
     description: (
       <>
         From foundational concepts of Physical AI to advanced autonomous
@@ -43,11 +43,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, image, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} className={styles.featureSvg} role="img" alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
