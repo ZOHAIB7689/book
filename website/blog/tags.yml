@@ -1,19 +1,34 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+robotics:
+  label: Robotics
+  permalink: /robotics
+  description: Articles about robotics technology and applications
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+humanoid:
+  label: Humanoid
+  permalink: /humanoid
+  description: Content related to humanoid robots and their development
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+physical-ai:
+  label: Physical AI
+  permalink: /physical-ai
+  description: Embodied intelligence and physical AI systems
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+ros2:
+  label: ROS 2
+  permalink: /ros2
+  description: Robot Operating System 2 tutorials and guides
+
+simulation:
+  label: Simulation
+  permalink: /simulation
+  description: Robot simulation tools and techniques
+
+machine-learning:
+  label: Machine Learning
+  permalink: /machine-learning
+  description: ML applications in robotics and physical AI
+
+announcements:
+  label: Announcements
+  permalink: /announcements
+  description: Book updates and announcements
